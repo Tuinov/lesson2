@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #ececec;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerInside {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    line-height: 50px;
+    width: 95px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    padding-left: 73px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.logo span {
+    font-weight: 400;
+    color: #f38191;
+}
+
+.searchWrap {
+    width: 400px;
+    display: flex;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    margin-left: 37px;
+}
+
+.searchBrowse {
+    padding: 12px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.searchWrap input {
+    border: none;
+    padding: 0 4 px;
+    flex-grow: 1;
+}
+
+.searchWrap button {
+    height: 38px;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background-color:  #ffffff;
+}
+
+.searchWrap button i {
+    color:  #a4a4a4;
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.accountBtn {
+    background-color:  #f16d7f;
+    padding: 13px 19px;
+    border: none;    
+}
+
+.topNav {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 170px;
+    box-sizing: border-box;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 14px;
+    font-weight: 700;    
+}
+
+.topBanner {
+    height: 667px;
+    background: url(../img/topMan.png) no-repeat;
+    display: flex;
+}
+
+.topBannerContainer {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+
+.topBannerSign {
+    height: 92px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.topSign, .bottomSign {
+    color: #222222;
+    font-family: Lato, sans-serif;
+}
+
+.topSign {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.bottomSign {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 17px;
+}
+
+.bottomSign span {
+    color: #f16d7f;
+}
+
+.category {
+    height: 800px;
+    margin-top: 95px; 
+}
+
+.men, .women, .accesories, .kids {
+    width: 560px;
+    float: left;
+    margin: 5px 5px;
+}
+
+.men {  
+    height: 542px;
+    background: url(../img/men.jpg) no-repeat;   
+}
+
+.women {
+    height: 260px;    
+    background: url(../img/women.jpg) no-repeat;
+}
+
+.accesories {
+    height: 260px;
+    background: url(../img/acces.jpg) no-repeat;
+    position: relative;
+    top: -270px;
+}
+
+.kids {   
+    height: 542px;
+     background: url(../img/kids.jpg) no-repeat;
+}
+
+.categoryText {
+    background-color: white;
+    font-family: Lato, sans-serif;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 25px;
+    padding: 15px 20px;
+    width: 190px;
+}
+
+.categoryText  span {
+    color:#f16d7f;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.main {  
+    clear: both;
+    margin-top: 50px;    
+}
+
+.mainHeader h3 {
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.mainHeader p {
+    font-family: Lato, sans-serif;
+    color:  #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;    
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;   
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.product8 {
+    width: 262px;
+    height: 364px;
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover,
+.product5:hover,
+.product6:hover,
+.product7:hover,
+.product8:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.product1 p,
+.product2 p,
+.product3 p,
+.product4 p,
+.product5 p,
+.product6 p,
+.product7 p,
+.product8 p {
+    display: inline;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 30px;
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product1 span,
+.product2 span,
+.product3 span,
+.product4 span,
+.product5 span,
+.product6 span,
+.product7 span,
+.product8 span {
+    font-family: Lato, sans-serif;
+    color:  #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+    
+.productBtn {
+    background-color:  #f16d7f;
+    padding: 13px 19px;
+    border: none;
+    margin: 60px 420px ;
+    
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+.offerBanner {
+    background: url(../img/offer.jpg) no-repeat;
+    width: 767px;
+    height: 529px;
+    padding: 146px 39px;
+}
+
+.offerBanner h3 {
+    font-family: Lato, sans-serif;
+    color:  #ffffff;
+    font-size: 53.62px;
+    font-weight: 700;
+    margin: 0;   
+}
+
+.offerBanner h3 span {
+    font-family: Lato;
+    color:  #f16d7f;
+    font-size: 53.62px;
+    font-weight: 700;
+}
+
+.offerBanner p {
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 32.17px;
+    font-weight: 700;
+    margin: 0
+}
+
